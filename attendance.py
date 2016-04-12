@@ -18,3 +18,5 @@ student_info = {'4401001': 'Christine Adewale',
 while True:
     s_id = input('Scan student id: ')
     print('%s checked in - %s' % (student_info[s_id], time.time()))
+    
+
